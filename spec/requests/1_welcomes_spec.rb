@@ -1,5 +1,5 @@
 RSpec.describe 'WelcomesController', type: :request do
-  describe '/welcomes へGETリクエストした時' do
+  describe '/welcomes へアクセスした時に' do
     let(:path) { '/welcomes' }
     before do
       get path
