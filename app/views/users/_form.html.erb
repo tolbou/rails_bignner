@@ -22,6 +22,17 @@
   </div>
 
   <div>
+    <%= form.label :age, '電話番号', style: "display: block" %>
+    <%= form.number_field :tel %>
+  </div>
+
+  <div>
+    <%= form.label :age, '住所', style: "display: block" %>
+    <%= form.number_field :address %>
+  </div>
+
+
+  <div>
     <%= form.submit '登録' %>
   </div>
 <% end %>
