@@ -19,7 +19,7 @@ class UsersController < ApplicationController
     @user.name = 'らんてくん'
     @user.age = 20
     @user.tel = '08030302828'
-    @user.address = '2111111'
+    @user.address = '東京都渋谷区'
   end
 
   # GET /users/1/edit
